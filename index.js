@@ -96,28 +96,15 @@ const messageHandler = async (message, client) => {
           break;
           case '#rules':
             client.sendText(from, '	
-			Rules ... !!!
-
+*-=[ 🤖 Rules AZ Bot V.1.0 🤖 ]=-*
 
 • *Jangan spam bot ..*
- 
-• *Jangan rusuh kalo bot gaaktif*
+• *Jangan rusuh kalo bot tidak aktif*
 • *Jangan telfon / vc bot nya ..*
      ( _auto block_ )
-• *Jangan req yang aneh aneh ..*
-  
 • *Sesuai kan perintah dengan formatnya..*
-
 _salah format dan bot error = block_
-
-Konsekuensi :
-
- Melanggar rules bot akan keluar 
-atau member yang nge rusuh harus di kick 
-
-
-Rules ini untuk kenyamanan semua yang memakai
-bot ini
+• *Jika ingin menyumbang ke AZ bot silahkan chat admin melalui #kontak*
  
 *Created by © Alif Putra Darmawan*
 ')
