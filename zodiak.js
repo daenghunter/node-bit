@@ -16,6 +16,8 @@ const getZodiak = (nama, tgl) =>
         text += `*Usia*: ${usia}\n`;
         text += `*Ultah*: ${ultah}\n`;
         text += `*Zodiak*: ${zodiak}`;
+
+        text += `*Created By © Alif Putra Darmawan*`;
         resolve(text);
       })
       .catch((error) => reject(error));
