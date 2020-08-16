@@ -95,20 +95,9 @@ const messageHandler = async (message, client) => {
           client.sendText(from, '*Kontak Owner* \n *Whatsapp: wa.me/6281342077268* \n *Instagram: @alfiyanpro.id*')
           break;
           case '#rules':
-            client.sendText(from, '	
-*-=[ 🤖 Rules AZ Bot V.1.0 🤖 ]=-*
-
-• *Jangan spam bot ..*
-• *Jangan rusuh kalo bot tidak aktif*
-• *Jangan telfon / vc bot nya ..*
-     ( _auto block_ )
-• *Sesuai kan perintah dengan formatnya..*
-_salah format dan bot error = block_
-• *Jika ingin menyumbang ke AZ bot silahkan chat admin melalui #kontak*
- 
-*Created by © Alif Putra Darmawan*
+            client.sendText(from, '*-=[ 🤖 Rules AZ Bot V.1.0 🤖 ]=-*  \n • *Jangan spam bot ..* \n • *Jangan rusuh kalo bot tidak aktif* \n • *Jangan telfon / vc bot nya*(_auto block_ ) \n • *Sesuai kan perintah dengan formatnya..* \n _salah format dan bot error = block_ \n • *Jika ingin menyumbang ke AZ bot silahkan chat admin melalui #kontak* \n\n\n *Created by © Alif Putra Darmawan*
 ')
-          break;
+break;
       // case '#ig':
       //   debug(inMsg);
       //   client.sendText(from, waitDataMsg);
