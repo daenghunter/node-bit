@@ -24,7 +24,7 @@ _Rules Bot_
 
 *Fitur Lain *Coming Soon**
   
-** Kalau ada masalah atau mau curhat bisa chat disini, kalau beruntung bakal dibalas admin`;
+*Created by © Alif Putra Darmawan*`;
 
 // *#ig(spasi)link*
 // _Download foto 🖼 atau video 🎥 dari instagram_
