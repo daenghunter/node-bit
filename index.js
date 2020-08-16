@@ -93,7 +93,7 @@ const messageHandler = async (message, client) => {
         break;
 		  case '#kontak':
           client.sendText(from, '*Kontak Owner* \n *Whatsapp: wa.me/6281342077268* \n *Instagram: @alfiyanpro.id*')
-          break
+          break;
           case '#rules':
             client.sendText(from, '	
 			Rules ... !!!
@@ -121,7 +121,7 @@ bot ini
  
 *Created by © Alif Putra Darmawan*
 ')
-          break
+          break;
       // case '#ig':
       //   debug(inMsg);
       //   client.sendText(from, waitDataMsg);
