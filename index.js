@@ -30,10 +30,10 @@ const messageHandler = async (message, client) => {
   const stickerCreatedMsg = `(${name} - ${number}) membuat stiker 🚀`;
   const inMsg = `(${name} - ${number}) mengirim pesan ${command} 📩`;
   const inMsgImgNoCapt = `(${name} - ${number}) mengirim gambar tanpa caption 📩`;
-  const waitStickerMsg = '_Tunggu bentar stiker nye lagi dibuat,kalau sudah dapet pesan ini tinggal tunggu aja ya ⏳_';
+  const waitStickerMsg = '_Tunggu bentar stiker lagi dibuat,kalau sudah dapet pesan ini tinggal tunggu aja ya ⏳_';
   const thxMsg = '_Iya sama - sama 🤖_';
   // const waitVidMsg = '_Video lagi di upload tunggu aja 🎥_';
-  const waitDataMsg = '_Tunggu sebentar data lagi di proses ⏳_';
+  const waitDataMsg = '_Tunggu sebentar sementara lagi di proses ⏳_';
   const wrongMsg = '_Kayaknya ada yang salah, coba nanti lagi 🚴🏻_';
   const noCaptMsg = '_Pakai caption ya jangan gambar doang atau kalau lupa tinggal bales aja digambarnya, ketik #menu 🤖_';
   const unkMsg = '_Yang bener dong coba ketik *#menu*, kalau ngasal nanti aku block lho 🤖_';
@@ -92,7 +92,7 @@ const messageHandler = async (message, client) => {
         client.sendText(from, doneMsg);
         break;
 		  case '#kontak':
-          client.sendText(from, '*Kontak Owner* \n *Whatsapp: wa.me/6281342077268* \n *Instagram: @alfiyanpro.id*')
+          client.sendText(from, '*-=[ 🤖 Contact Owner 🤖 ]=-* \n • Whatsapp: wa.me/6281342077268 \n • Instagram: @alfiyanpro.id')
           break;
           case '#rules':
             client.sendText(from, '*-=[ 🤖 Rules AZ Bot V.1.0 🤖 ]=-*  \n • *Jangan spam bot ..* \n • *Jangan rusuh kalo bot tidak aktif* \n • *Jangan telfon / vc bot nya*(_auto block_ ) \n • *Sesuai kan perintah dengan formatnya..* \n _salah format dan bot error = block_ \n • *Jika ingin menyumbang ke AZ bot silahkan chat admin melalui #kontak* \n\n\n *Created by © Alif Putra Darmawan*
@@ -114,6 +114,8 @@ break;
       //   });
       //   break;
       case '#wp':
+      case 'wp':
+      case 'Wp':
 	  case 'wallpaper':
 	  case 'Wallpaper':
         debug(inMsg);
