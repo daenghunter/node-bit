@@ -1,30 +1,15 @@
-module.exports = `Hai *${pushname}*, ini daftar menu yang bisa kalian gunakan disini
+module.exports = `
+*-=[ 🤖 Menu AZ Bot V.1.0 🤖 ]=-*
 
-*#Stiker/#Sticker/Stiker/stiker/#sticker/#stiker*
-_Bikin Stiker dari gambar 🖼, kirim gambar dan beri caption atau bisa juga quote/reply dari gambar yang sudah ada di chat/group_
+• *#menu*: Menampilkan Menu Utama
+• *#stiker*: Mengubah Gambar Menjadi Sticker
+• *#korona*:  Menampilkan Data Korona Indonesia, data Realtime & Terupdate dari sumber terpercaya
+• *#quotes*: Random Update Quotes
+• *#walpaper*: Random Gambar Walpaper
+• *#zodiak*: Menampilkan Zodiak Kamu
+• *#kontak*: Menampilkan Kontak Pembuat Bot Ini
 
-*#korona*
-_Data Korona Indonesia 🦠, data realtime dan terupdate dari sumber terpercaya_
-  
-*#quotes*
-_Random Quotes Bahasa Indonesia 🔖_
-
-*#wp/wallpaper*
-_Random Wallpaper 🌈_
-
-*#zodiak(spasi)nama(spasi)tgl*
-_Cek Zodiak Kamu 🐟_
-_(contoh: #zodiak dandi 20-01-2005)_
-  
-*#kontak*
-_Kontak Owner_
-
-*#rules*
-_Rules Bot_
-
-*Fitur Lain *Coming Soon**
-  
-*Created by © Alif Putra Darmawan*`;
+AZ Bot © By Alif Putra Darmawan`;
 
 // *#ig(spasi)link*
 // _Download foto 🖼 atau video 🎥 dari instagram_
