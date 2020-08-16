@@ -37,7 +37,7 @@ const messageHandler = async (message, client) => {
   const wrongMsg = '_Kayaknya ada yang salah, coba nanti lagi 🚴🏻_';
   const noCaptMsg = '_Pakai caption ya jangan gambar doang atau kalau lupa tinggal bales aja digambarnya, ketik #menu 🤖_';
   const unkMsg = '_Yang bener dong coba ketik *#menu*, kalau ngasal nanti aku block lho 🤖_';
-  const doneMsg = '_Tugas selesai 👌, buat liat semua menu bot ketik *#menu*, kalau mau share ke temen - temen kalian atau masukin ke grup juga boleh_';
+  const doneMsg = '_Tugas saat ini sudah selesai, untuk melakukan perintah baru silahkan balas #menu_';
 
   try {
     switch (command) {
