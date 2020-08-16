@@ -92,7 +92,7 @@ const messageHandler = async (message, client) => {
         client.sendText(from, doneMsg);
         break;
 		  case '#kontak':
-          client.sendText(from, '*Kontak Owner* \n *Whatsapp: wa.me/6289636035164* \n *Instagram: @dandisubhani_*')
+          client.sendText(from, '*Kontak Owner* \n *Whatsapp: wa.me/6281342077268* \n *Instagram: @alfiyanpro.id*')
           break
           case '#rules':
             client.sendText(from, '	
@@ -119,7 +119,7 @@ atau member yang nge rusuh harus di kick
 Rules ini untuk kenyamanan semua yang memakai
 bot ini
  
-*Created by Dandi*
+*Created by © Alif Putra Darmawan*
 ')
           break
       // case '#ig':
